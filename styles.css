@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.resume {
+    display: flex;
+    justify-content: center;
+    max-width: 750px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    width: 100%;
+}
+
+.left-column {
+    width: 30%;
+    padding-right: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.personal-info h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.personal-info p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+/* .personal-info a {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;  
+    max-width: 100%;
+} */
+.personal-info a {
+    word-wrap: break-word;
+    max-width: 100%;  /* Đảm bảo không vượt quá chiều rộng của phần tử chứa */
+    overflow-wrap: break-word; /* Dùng để xuống dòng khi cần thiết */
+}
+
+
+.position {
+    font-size: 18px;
+    font-weight: bold;
+    color: #bbb;
+}
+
+.right-column {
+    width: 70%;
+    padding-left: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    display: inline-block;
+    color: #2980b9;
+    font-size: 22px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.job h3 {
+    color: #2980b9;
+    font-size: 20px;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    display: inline-block;
+    border: none;
+    border-top: 3px solid #FF7F32; /* Màu cam */
+    width: 50%; /* Chiều dài của gạch ngang */
+    vertical-align: middle; /* Đảm bảo gạch ngang và tiêu đề nằm trên cùng một hàng */
+    margin: 0;
+}
+
